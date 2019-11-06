@@ -26,6 +26,8 @@ A step by step series of examples that tell you how to get a development env run
 #### Option 1
 A `.jar` file is available to run the game directly.
 
+`https://github.com/karimbounekhla/tictactoe-java/blob/master/out/artifacts/tictactoe_java_jar/tictactoe-java.jar`
+
 #### Option 2
 Download all src (`.java`) files into a folder.
 
