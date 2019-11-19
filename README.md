@@ -1,5 +1,5 @@
 # Tic Tac Toe
-Tic Tac Toe game using Java and the Swing Library (GUI), built using MVC design pattern.
+Tic Tac Toe game built using Java and the Swing Library (GUI) - following the MVC design pattern.
 
 Features Human vs Human or Human vs AI (3 levels of AI difficulty)
 
