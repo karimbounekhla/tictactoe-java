@@ -19,6 +19,5 @@ public class HumanPlayer extends Player {
      */
     protected void makeMove() {
         gridView.setMessage("\n" + getName() +", your turn to place a " + getMark());
-
     }
 }

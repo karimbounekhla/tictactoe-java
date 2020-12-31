@@ -1,3 +1,4 @@
+package exercise5k;
 
 /**
  * This class represents a Player of a Tic Tac Toe game. An object of this class contains a name, mark (X or O) and reference to

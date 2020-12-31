@@ -1,6 +1,6 @@
 
 /**
- * This Interface provides variables to represent the options that a board can contain in a Tic Tac Toe Game. 
+ * This Interface provides variables to represent the options that a board can contain in a Tic Tac Toe Game.
  *
  */
 public interface Constants {

@@ -26,18 +26,6 @@ public class Referee {
 		playerTurn = xPlayer;
 		playerTurn.makeMove();
 	}
-
-	/**
-	 * This method is called in between turns to assign the next turn to a player after their opponent has played.
-	 */
-	public void nextTurn() {
-		// Check if game isn't done yet
-		if (!getPlayerTurn().gameIsDone()) {
-			// Set player turn to the opponent, and make a move
-			setPlayerTurn(getPlayerTurn().getOpponent());
-			getPlayerTurn().makeMove();
-		}
-	}
 	
 	/**
 	 * Sets the Board for the game
@@ -61,14 +49,6 @@ public class Referee {
 	 */
 	public void setxPlayer(Player xPlayer) {
 		this.xPlayer = xPlayer;
-	}
-
-	/**
-	 * Set the current player turn
-	 * @param player Player object
-	 */
-	public void setPlayerTurn(Player player) {
-		playerTurn = player;
 	}
 
 	/**

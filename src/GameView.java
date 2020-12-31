@@ -113,7 +113,7 @@ public class GameView extends JFrame {
      * Helper method to add container elements to the Border Layout
      */
     private void addElements() {
-        title = new JLabel("Welcome to Tic Tac Toe.");
+        title = new JLabel("Online Tic Tac Toe.");
         title.setHorizontalAlignment(JLabel.CENTER);
         title.setFont(new Font("Arial", Font.PLAIN, 20));
         add("North", title);
