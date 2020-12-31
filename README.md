@@ -64,6 +64,8 @@ Deploy it an Amazon EC2 instance, then run it.
 
 Instructions: https://tecadmin.net/install-java-on-amazon-linux/
 
+Optionally, it can be run on `localhost`
+
 In `TictacToeApp.java`, assign the `ip` and `port` of your EC2 instance (or any other server of your choice). This can be fully done on the EC2 free-tier however.
 
 Run `TicTacToeApp.jar` on your clients, the game will start once two clients have connected.
