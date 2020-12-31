@@ -3,13 +3,24 @@ Tic Tac Toe game built using Java and the Swing Library (GUI) - following the MV
 
 Features Human vs Human or Human vs AI (3 levels of AI difficulty)
 
+**Updated**: Now features online multiplayer (head to head), using a server hosted on Amazon EC2
+
 ## Tools 
 
 * Java / Swing Library
 
-## Gameplay
+## Gameplay (Local)
 
 ![Gameplay](gamegif.gif)
+
+## Gameplay (Online)
+
+![Server-waiting](screenshots/server-waiting.png)
+
+![Server-playing](screenshots/server-playing.png)
+
+![Server-game-over](screenshots/server-game-over.png)
+
 
 ## Getting Started
 
@@ -23,8 +34,8 @@ You will need Java 8.x SDK or more recent
 
 A step by step series of examples that tell you how to get a development env running
 
-#### Option 1
-A `.jar` file is available to run the game directly.
+#### Option 1 (Local play only)
+A `.jar` file is available to run the game directly. 
 
 `https://github.com/karimbounekhla/tictactoe-java/blob/master/out/artifacts/tictactoe_java_jar/tictactoe-java.jar`
 
@@ -44,6 +55,16 @@ Ensure that `.class` files have been created for all files, then enter the follo
 ```
 java TicTacToeApp
 ```
+
+### Online Play
+
+Generate a `.jar` file of `TicTacToeServerV2.java`
+
+Deploy it an Amazon EC2 instance, then run it.
+
+In `TictacToeApp.java`, assign the `ip` and `port` of your EC2 instance.
+
+Run `TicTacToeApp.jar` on your clients, the game will start once two clients have connected.
 
 ## License / Copyright
 
